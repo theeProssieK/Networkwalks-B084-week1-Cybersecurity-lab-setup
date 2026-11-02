@@ -135,6 +135,8 @@ RAM: 2048 MB
 ```
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
+![NAT Network settings](NatNetwork.png)
+
 ## Step 5. Configure the Kali Linux Network
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
