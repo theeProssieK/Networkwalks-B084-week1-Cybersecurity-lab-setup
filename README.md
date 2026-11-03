@@ -153,7 +153,7 @@ In Kali: **Network icon → Edit Connections → Wired connection 1 → IPv4 Set
 
 A fixed address makes the lab easier to document and to reference in later exercises.
 
-![Editing wired connections](Editing-wired-connections.png)
+![Editing wired connections]()
 
 ## Step 6. Create a Clean VM Snapshot
 
