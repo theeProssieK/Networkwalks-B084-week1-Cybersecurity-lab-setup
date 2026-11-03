@@ -247,7 +247,7 @@ This lab is intended **strictly for education and authorized testing**. Only tes
 **Nantumbwe Prossy Kawuma**\
 Cybersecurity Professional B084
 
-LinkedIn: 
+LinkedIn: [https://www.linkedin.com/in/prossykawuma/]
 
 ## Project Information
 
