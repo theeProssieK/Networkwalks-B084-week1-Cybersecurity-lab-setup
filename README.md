@@ -166,7 +166,7 @@ With the VM configured and working, I took a snapshot as a recovery point.
 
 If a later exercise breaks the VM, I can restore this baseline.
 
-![Uploading image.png…]()
+![Uploading image.png…](https://github.com/theeProssieK/Networkwalks-B084-week1-Cybersecurity-lab-setup/blob/main/snapshot.png)
 
 
 
@@ -182,8 +182,6 @@ If a later exercise breaks the VM, I can restore this baseline.
 | 🧰 Verify Nmap | `nmap --version` | Nmap version displayed |
 | 🔄 Verify snapshot | Restore snapshot, then run `ip a` | Baseline configuration restored |
 
-![Verification results]()
-
 ### Results
 
 ```text
@@ -192,6 +190,20 @@ Gateway    : 10.0.0.1
 DNS        : 8.8.8.8
 Internet   : reachable
 ```
+
+## 🧯 Troubleshooting
+
+Problems I ran into and how I solved them:
+
+| ❌ Problem | 💡 Cause | ✅ Fix |
+|---|---|---|
+| "File not found" when adding the VM | The file name box held a leftover default (`VirtualBox VMs`), and I had not opened the extracted subfolder | Open the extracted folder and select the `.vbox` file |
+| VM does not appear in the list | I was looking at the Network Manager page instead of the Machines view | Click the **Machines** icon in the left column |
+| "Machine is already locked by a session" | The VM was opened several times by double-clicking the `.vbox` file | Close the VM window, power it off, and start it only once from VirtualBox Manager |
+| VM shows **Inaccessible** | The VM files were moved or deleted, but VirtualBox still listed it | Right-click it, choose **Remove → Remove Only**, then add the VM again |
+| "Creating host-only network interface… canceled" | The Windows permission or driver prompt was dismissed | Click **Yes** on the prompt, or run VirtualBox as administrator; the default host-only adapter was not needed for this lab |
+| VM screen looks grey and does not respond | The VM was paused | Use **Machine → Pause** (or Right Ctrl + P) to resume |
+
 
 #  What I Learned
 
