@@ -111,7 +111,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![NAT Network settings](NatNetwork.png)
+![NAT Network settings](https://github.com/theeProssieK/Networkwalks-B084-week1-Cybersecurity-lab-setup/blob/main/network-setting.png)
 
 A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -129,9 +129,7 @@ Network:     NatNetwork
 Adapter Type: Intel PRO/1000 MT Desktop
 ```
 
-The VM was allocated:
 
-RAM: 2048 MB
 ```
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
