@@ -166,6 +166,9 @@ With the VM configured and working, I took a snapshot as a recovery point.
 
 If a later exercise breaks the VM, I can restore this baseline.
 
+![Uploading image.png…]()
+
+
 
 # Lab Verification
 
@@ -179,7 +182,7 @@ If a later exercise breaks the VM, I can restore this baseline.
 | 🧰 Verify Nmap | `nmap --version` | Nmap version displayed |
 | 🔄 Verify snapshot | Restore snapshot, then run `ip a` | Baseline configuration restored |
 
-![Verification results](screenshots/05-verification.png)
+![Verification results]()
 
 ### Results
 
