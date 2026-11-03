@@ -133,7 +133,7 @@ RAM: 2048 MB
 ```
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
-![NAT Network settings](NatNetwork.png)
+![](https://github.com/theeProssieK/Networkwalks-B084-week1-Cybersecurity-lab-setup/blob/main/kalinux%20image.png?raw=true)
 
 ## Step 5. Configure the Kali Linux Network
 
