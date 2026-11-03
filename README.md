@@ -153,7 +153,7 @@ In Kali: **Network icon → Edit Connections → Wired connection 1 → IPv4 Set
 
 A fixed address makes the lab easier to document and to reference in later exercises.
 
-![Editing wired connections]()
+![Editing wired connections](https://github.com/theeProssieK/Networkwalks-B084-week1-Cybersecurity-lab-setup/blob/main/-Kali%20linus-network-setting.png?raw=true)
 
 ## Step 6. Create a Clean VM Snapshot
 
